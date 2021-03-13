@@ -1,0 +1,344 @@
+<template>
+  <div style="background-color: whitesmoke;">
+ <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">This website is created for eductional purpose</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://www.instagram.com" class="text-white">Instagram</a></li>
+              <li><a href="https://www.facebook.com" class="text-white">Like on Facebook</a></li>
+              <li><a href="https://www.gmail.com" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
+            viewBox="0 0 24 24"/>
+            <path
+              d="M4.5 1A1.5 1.5 0 0 0 3 2.5V3h4v-.5A1.5 1.5 0 0 0 5.5 1h-1zM7 4v1h2V4h4v.882a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V13H9v-1.5a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5V13H1V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V4h4zM1 14v.5A1.5 1.5 0 0 0 2.5 16h3A1.5 1.5 0 0 0 7 14.5V14H1zm8 0v.5a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5V14H9zm4-11H9v-.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5V3z" />
+            <strong>TASIPA</strong>
+        </a>
+        <!-- Hamburger -->
+        <button class="navbar-toggler" id='hiddenbar' type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container" style="background-color:lightblue;">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Contacts</h1>
+          <p class="lead text-muted">Check out the contacts of your colleague below</p>
+          <p>
+            <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+          </p>
+        </div>
+      </div>
+    </section>
+    <nav class="navbar sticky-top navbar-light bg-light">
+      <div class="container d-flex align-items-center">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          Contacts
+        </a>
+          <input class="form-control" type="search" placeholder="Search Contact" style="width:800px;"> 
+          <div class="btn-group">
+          <button class="btn " type="submit">Search</button>
+          <button class="btn "><i class="fa fa-plus"></i>Add</button>
+        </div>
+      </div>
+    </nav>
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- (1,1) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/elyse.png"><img src="../assets/images/elyse.png" alt="..."
+                  class="card-img-top"></a>
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- (1,2) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/daniel.jpeg"><img src="../assets/images/daniel.jpeg" alt="..."
+                  class="card-img-top"></a>
+
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- (1,3) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/elliot.jpeg"><img src="../assets/images/elliot.jpeg" alt="..."
+                  class="card-img-top"></a>
+
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- (2,1) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/kristy.png"><img src="../assets/images/kristy.png" alt="..."
+                  class="card-img-top"></a>
+
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- (2,2) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/matthew.png"><img src="../assets/images/matthew.png" alt="..."
+                  class="card-img-top"></a>
+
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2,3 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/molly.png"><img src="../assets/images/molly.png" alt="..."
+                  class="card-img-top"></a>
+
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- (3,1) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/steve.jpeg"><img src="../assets/images/steve.jpeg" alt="..."
+                  class="card-img-top"></a>
+
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- (3,2)-->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/elyse.png"><img src="../assets/images/elyse.png" alt="..."
+                  class="card-img-top"></a>
+
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- (3,3) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <a class="lightbox" href="../assets/images/kristy.png"><img src="../assets/images/kristy.png" alt="..."
+                  class="card-img-top"></a>
+              <div class="card-body">
+                <h6>Sirendra Singh</h6> 
+                <p>Phone: 097-xxx-xxxx</p>
+                <p>Email: Sirendra99@gmail.com</p>
+                <p>Facebook:https://www.facebook.com/</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="fill.html"><button class="btn"><i class="fa fa-edit"></i></button></a>
+                    <button class="btn"><i class="fa fa-trash"></i></button>
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-5" style="background-color:lightblue;">
+
+    <div class="container" >
+      <p class="float-end mb-1">
+        
+        <a href="#"><button type="button" style="border: none;background-color:lightblue;color:rgba(0, 0, 255, 0.788)" >
+          <span>Back to top</span>
+          </button></a>
+        <a href="#hiddenbar">
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" style="border: none;background-color:lightblue;color:rgba(0, 0, 255, 0.788);" >
+          <span>More about us</span>
+          </button>
+        </a>
+      </p>
+        <p><pre>Created By:-
+          1. Napatkorn     ID:6081017     
+          2. Peerayos      ID:6081208
+          3. Sirendra      ID:6081262
+        </pre> 
+      </p>
+    </div>
+  </footer>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "HelloWorld",
+  props: {
+    msg: String
+  }
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    .card-body{
+      font-size:10px;
+      text-align: center;
+    }
+    .card-img-top{
+      height: 400px
+    }
+    .btn-group{
+      margin:auto;
+    }
+
+    .btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: 4pt solid white;/* Remove borders */
+    color: white; /* White text */
+    border-radius: 10px;
+    padding: 12px 16px; /* Some padding */
+    font-size: 18px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    }
+
+/* Darker background on mouse-over */
+.btn:hover {
+background-color: RoyalBlue;
+}
+</style>
